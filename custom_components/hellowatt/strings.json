@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connexion Hellowatt",
+        "description": "Entrez vos identifiants du site hellowatt.fr",
+        "data": {
+          "email": "Adresse e-mail",
+          "password": "Mot de passe"
+        }
+      },
+      "select_home": {
+        "title": "Sélectionner un logement",
+        "description": "Plusieurs logements trouvés sur votre compte",
+        "data": {
+          "home_id": "Logement"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Email ou mot de passe incorrect",
+      "cannot_connect": "Impossible de se connecter à Hellowatt",
+      "no_homes": "Aucun logement trouvé sur ce compte",
+      "unknown": "Erreur inattendue"
+    },
+    "abort": {
+      "already_configured": "Ce compte Hellowatt est déjà configuré"
+    }
+  }
+}
